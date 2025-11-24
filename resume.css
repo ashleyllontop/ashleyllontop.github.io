@@ -72,7 +72,10 @@ ul {
    list-style-position: inside;
 }
 
-
 span {
    font-style: italic;
+}
+
+footer {
+   background-color: #FFEA5C;
 }
