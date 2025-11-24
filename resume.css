@@ -1,1 +1,76 @@
+/* GENERAL PAGE */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    color: #000;
+    line-height: 1.35;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* HEADER */
+
+.name {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.contact {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.contact a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* SECTION HEADINGS */
+
+h2 {
+    font-size: 18px;
+    margin-top: 28px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 3px;
+}
+
+/* ENTRIES */
+
+.entry {
+    margin-bottom: 18px;
+}
+
+.entry-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.entry-header strong {
+    font-weight: bold;
+}
+
+.date {
+    font-size: 14px;
+    color: #444;
+}
+
+p {
+    margin: 4px 0 8px 0;
+}
+
+ul {
+    margin: 6px 0 0 20px;
+}
+
+.skills li {
+    margin-bottom: 4px;
+}
 
