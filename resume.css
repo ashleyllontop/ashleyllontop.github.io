@@ -28,10 +28,8 @@ body {
 
 h2 {
     font-size: 18px;
-    margin-top: 8px;
     margin-bottom: 8px;
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 3px;
+    border-bottom: 2px solid #ccc;
 }
 
 /* ENTRIES */
@@ -53,10 +51,6 @@ h2 {
 .date {
     font-size: 14px;
     color: #444;
-}
-
-p {
-    width: 50%;
 }
 
 ul {
