@@ -41,8 +41,6 @@ h2 {
 
 .entry-header {
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
     font-size: 16px;
 }
 
