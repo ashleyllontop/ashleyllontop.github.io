@@ -1,11 +1,9 @@
-/* GENERAL PAGE */
 body {
     font-family: "Times New Roman", Times, serif;
     margin: 40px;
     color: #000;
 }
 
-/* HEADER */
 .name {
     text-align: center;
     font-size: 28px;
@@ -18,19 +16,17 @@ body {
     margin-bottom: 30px;
 }
 
-/* SECTION HEADINGS */
 h2 {
     font-size: 18px;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     border-bottom: 2px solid #ccc;
 }
 
-/* ENTRIES */
 .entry {
-    margin-bottom: 12px;
+    display: flex;
+    margin-bottom: 10px;
 }
 
-/* LEFT-RIGHT FLEX FOR EXPERIENCE */
 .entry-header {
     display: flex;
     justify-content: space-between;
@@ -49,35 +45,24 @@ h2 {
     align-items: flex-end;
 }
 
-/* DATE STYLE */
 .date {
     font-size: 14px;
     font-style: normal;
     color: #444;
 }
+
 .location {
     font-style: normal;
 }
 
-/* UL AND BULLETS */
 ul {
     margin: 4px 0 0 0;
     padding-left: 0;
     list-style-position: inside;
 }
 
-li {
-    margin-bottom: 0px; /* small spacing between bullet points */
-}
-
 span {
     font-style: italic;
-}
-
-/* Reduce spacing for headings */
-h1, h2 {
-    margin-top: 10px;   /* optional, smaller than default */
-    margin-bottom: 6px; /* optional, smaller than default */
 }
 
 
