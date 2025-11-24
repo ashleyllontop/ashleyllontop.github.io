@@ -18,17 +18,21 @@ body {
     margin-bottom: 30px;
 }
 
+.contact a {
+    color: #000;
+    text-decoration: none;
+}
+
 /* SECTION HEADINGS */
 h2 {
     font-size: 18px;
-    margin-top: 10px;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
     border-bottom: 2px solid #ccc;
 }
 
 /* ENTRIES */
 .entry {
-    margin-bottom: 12px;
+    margin-bottom: 18px;
 }
 
 /* LEFT-RIGHT FLEX FOR EXPERIENCE */
@@ -58,9 +62,36 @@ h2 {
 
 /* UL AND BULLETS */
 ul {
-    margin: 4px 0 0 0;
-    padding-left: 15px;
+    margin: 5px 0 0 0;
+    padding-left: 0;
     list-style-position: inside;
 }
+
+
+/* Remove extra spacing for paragraphs and lists */
+p {
+    margin: 0;        /* removes top/bottom spacing */
+}
+
+ul {
+    margin: 4px 0 0 0; /* reduces top/bottom margin */
+    padding-left: 15px; /* keeps bullets indented but small */
+}
+
+li {
+    margin-bottom: 4px; /* small spacing between bullet points */
+}
+
+/* Reduce spacing for headings */
+h1, h2 {
+    margin-top: 10px;   /* optional, smaller than default */
+    margin-bottom: 6px; /* optional, smaller than default */
+}
+
+/* Optional: reduce spacing between entries */
+.entry {
+    margin-bottom: 12px; /* smaller than original 18px */
+}
+
 
 
