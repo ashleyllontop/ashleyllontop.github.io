@@ -1,8 +1,11 @@
+/* GENERAL PAGE */
 body {
     font-family: "Times New Roman", Times, serif;
     margin: 40px;
+    color: #000;
 }
 
+/* HEADER */
 .name {
     text-align: center;
     font-size: 28px;
@@ -15,16 +18,24 @@ body {
     margin-bottom: 30px;
 }
 
+.contact a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* SECTION HEADINGS */
 h2 {
     font-size: 18px;
-    margin-bottom: 6px;
-    border-bottom: 2px solid;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #ccc;
 }
 
+/* ENTRIES */
 .entry {
-    margin-bottom: 10px;
+    margin-bottom: 18px;
 }
 
+/* LEFT-RIGHT FLEX FOR EXPERIENCE */
 .entry-header {
     display: flex;
     justify-content: space-between;
@@ -43,31 +54,15 @@ h2 {
     align-items: flex-end;
 }
 
+/* DATE STYLE */
 .date {
     font-size: 14px;
-    font-style: normal;
+    color: #444;
 }
 
-.location {
-    font-style: normal;
-}
-
-li {
-    margin-bottom: 4px;
-    padding-left: 15px;
-}
-
-
+/* UL AND BULLETS */
 ul {
-    margin: 4px 0 0 0;
+    margin: 5px 0 0 0;
     padding-left: 0;
     list-style-position: inside;
 }
-
-span {
-    font-style: italic;
-}
-
-
-
-
