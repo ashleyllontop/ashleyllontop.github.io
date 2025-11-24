@@ -1,68 +1,82 @@
-/* GENERAL PAGE */
 body {
-    font-family: "Times New Roman", Times, serif;
-    margin: 40px;
-    color: #000;
+   font-family: "Times New Roman", Times, serif;
+   margin: 40px;
 }
 
-/* HEADER */
+
 .name {
-    text-align: center;
-    font-size: 28px;
-    margin-bottom: 5px;
+   text-align: center;
+   font-size: 28px;
+   margin-bottom: 5px;
 }
+
 
 .contact {
-    text-align: center;
-    font-size: 14px;
-    margin-bottom: 30px;
+   text-align: center;
+   font-size: 14px;
+   margin-bottom: 30px;
 }
 
-.contact a {
-    color: #000;
-    text-decoration: none;
-}
 
-/* SECTION HEADINGS */
 h2 {
-    font-size: 18px;
-    margin-bottom: 8px;
-    border-bottom: 2px solid #ccc;
+   font-size: 18px;
+   margin-bottom: 6px;
+   border-bottom: 2px solid;
 }
 
-/* ENTRIES */
+
 .entry {
-    margin-bottom: 18px;
+   margin-bottom: 10px;
 }
 
-/* LEFT-RIGHT FLEX FOR EXPERIENCE */
+
 .entry-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   width: 100%;
 }
+
 
 .left {
-    display: flex;
-    flex-direction: column;
+   display: flex;
+   flex-direction: column;
 }
+
 
 .right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
 }
 
-/* DATE STYLE */
+
 .date {
-    font-size: 14px;
-    color: #444;
+   font-size: 14px;
+   font-style: normal;
 }
 
-/* UL AND BULLETS */
+
+.location {
+   font-style: normal;
+}
+
+
+li {
+   margin-bottom: 4px;
+   padding-left: 15px;
+}
+
+
+
+
 ul {
-    margin: 5px 0 0 0;
-    padding-left: 0;
-    list-style-position: inside;
+   margin: 4px 0 0 0;
+   padding-left: 0;
+   list-style-position: inside;
+}
+
+
+span {
+   font-style: italic;
 }
