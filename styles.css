@@ -16,6 +16,17 @@ h1 {
     border: 2px solid saddlebrown;
 }
 
+.projects { 
+    /* make the blobs float side-by-side */
+	display:flex; 
+	flex-wrap:wrap;  
+} 
+
+.projects h2 {
+    /* display the h2 on its own line, not with the section blobs */
+	width: 100%;
+}
+
 .projects {
     /* form the section blobs */
     width: 30%;
