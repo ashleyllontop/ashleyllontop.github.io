@@ -21,18 +21,16 @@ h1 {
 	display:flex; 
 	flex-wrap:wrap;  
 } 
-
-.project h2 {
+.projects h2 {
     /* display the h2 on its own line, not with the section blobs */
 	width: 100%;
 }
-
 .project {
     /* form the section blobs */
     width: 30%;
     margin: 10px;
     padding: 20px 10px;
-    background: saddlebrown;
+    background: lightslategray;
     /* rounded corners for the blobs */
     border-radius: 25%;
 }
@@ -40,27 +38,16 @@ h1 {
     /* pull the h3 text away from the left blob wall */
     margin-left: 50px;
 }
-
 .project img {
     /* adjust your image sizes as needed */
     width: 400px;
     height: 300px;
     margin: 10px auto;
-    border: 2px solid saddlebrown;
+    border: 2px solid navy;
     display: block;
     /* center the images inside the blobs */
     text-align: center;
 }
-
-.project img {
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    border: 2px solid saddlebrown;
-    display: block;
-    margin: auto;
-}
-
 .project p {
     /* center the p text in the blob */
     text-align: center;
