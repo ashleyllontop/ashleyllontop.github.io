@@ -22,12 +22,12 @@ h1 {
 	flex-wrap:wrap;  
 } 
 
-.projects h2 {
+.project h2 {
     /* display the h2 on its own line, not with the section blobs */
 	width: 100%;
 }
 
-.projects {
+.project {
     /* form the section blobs */
     width: 30%;
     margin: 10px;
@@ -36,12 +36,12 @@ h1 {
     /* rounded corners for the blobs */
     border-radius: 25%;
 }
-.projects h3 {
+.project h3 {
     /* pull the h3 text away from the left blob wall */
     margin-left: 50px;
 }
 
-.projects img {
+.project img {
     /* adjust your image sizes as needed */
     width: 400px;
     height: 300px;
@@ -52,7 +52,7 @@ h1 {
     text-align: center;
 }
 
-.projects img {
+.project img {
     width: 200px;
     height: 200px;
     margin: 10px;
@@ -61,7 +61,7 @@ h1 {
     margin: auto;
 }
 
-.projects p {
+.project p {
     /* center the p text in the blob */
     text-align: center;
     margin: 15px;
